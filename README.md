@@ -3,11 +3,11 @@ Projeto SafeCrypto desenvolvido seguindo Lean Inception. Sistema web para gestã
 
 
 
-================================================================================
+
 LEAN INCEPTION – SAFECRYPTO
 Universidade Católica de Brasília 
 Arquitetura de Software | 2026
-================================================================================
+
 Descrição:
 
 Projeto desenvolvido como parte do estudo de Lean Inception, aplicado ao contexto de uma plataforma de criptomoedas. O SafeCrypto é um sistema web que permite simular funcionalidades de uma aplicação de gestão de criptoativos, incluindo cadastro de usuários, operações simuladas de compra e venda, e visualização de relatórios.
