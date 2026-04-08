@@ -89,6 +89,7 @@ Referências
 
 👨‍🎓 Informações do trabalho
 Aluno: Pedro Paulo Costa do Amaral
+e Luiz Felipe Ferraz de Carvalho
 Disciplina: Arquitetura de Software
 Universidade: Universidade Católica de Brasília
 Grupo: 8
