@@ -57,21 +57,42 @@ package.json – Dependências e scripts do projeto
 server/ – Arquivos de servidor (compatibilidade e APIs locais)
 
 🚀 Como usar
-Opção 1 – Submeter PDF (recomendado)
-Abrir LEAN_INCEPTION_SAFECRYPTO_ABNT.pdf
-Imprimir ou enviar diretamente na plataforma da faculdade
-Opção 2 – Visualizar o board visual interativo
-Abrir website/index.html no navegador
-Explorar as 8 abas correspondentes às etapas da Lean Inception
-Navegar interativamente pelos conteúdos e recursos
-Opção 3 – Executar o projeto completo (modo desenvolvimento)
-Instalar Node.js (versão ≥ 20)
-Abrir terminal na pasta do projeto
-Executar:
-npm install
-npm run dev
 
-Abrir no navegador: http://localhost:3000
+Opção 1 – Submeter PDF (recomendado)
+
+1. Abrir `LEAN_INCEPTION_SAFECRYPTO_ABNT.pdf`
+2. Imprimir ou enviar diretamente na plataforma da faculdade
+
+Opção 2 – Visualizar o board visual interativo
+
+1. Abrir `website/index.html` no navegador
+2. Explorar as 8 abas correspondentes às etapas da Lean Inception
+
+Opção 3 – Executar o projeto completo (modo desenvolvimento)
+
+Pré-requisitos: Node.js ≥ 20
+
+1. Instale o pnpm (gerenciador de pacotes do projeto):
+```bash
+npm install -g pnpm
+```
+
+2. Acesse a pasta do projeto:
+```bash
+cd LEAN-INCEPTION-SAFECRYPTO/SafeCrypto_Completo/SafeCrypto_Completo
+```
+
+3. Instale as dependências:
+```bash
+pnpm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+```bash
+pnpm dev
+```
+
+5. Abra no navegador: http://localhost:5173
 📄 Estrutura do documento ABNT
 Introdução
 Contextualização (O colapso da FTX)
