@@ -424,28 +424,45 @@ export default function Home() {
               <CardDescription className="text-gray-400">Por que o SafeCrypto é necessário</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="font-semibold text-red-300 mb-3">O Problema</h3>
-                  <p className="text-sm text-gray-300 mb-4">
-                    A FTX era a terceira maior exchange de criptomoedas do mundo, com mais de um milhão de usuários. O colapso em novembro de 2022 foi desencadeado por uma corrida de saques que expôs um rombo de 8 bilhões de dólares nas contas da empresa.
-                  </p>
-                  <p className="text-sm text-gray-300">
-                    O ponto central dessa falha catastrófica foi a <strong>ausência de software adequado</strong> para gestão de risco, auditoria e segregação de fundos dos clientes.
-                  </p>
+              <div className="flex flex-col md:flex-row gap-6 items-start">
+                <div className="flex-1 space-y-4">
+                  <div>
+                    <h3 className="font-semibold text-red-300 mb-3">O Colapso</h3>
+                    <p className="text-sm text-gray-300">
+                      A FTX era a terceira maior exchange de criptomoedas do mundo, fundada em 2019 por Sam Bankman-Fried. No auge, a plataforma movimentava bilhões de dólares diariamente e contava com mais de um milhão de usuários ativos em todo o mundo.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-red-300 mb-3">O Gatilho</h3>
+                    <p className="text-sm text-gray-300">
+                      Em novembro de 2022, um relatório vazado revelou que a Alameda Research — empresa irmã da FTX — tinha a maior parte de seus ativos lastreados no token FTT, emitido pela própria FTX. Isso gerou desconfiança imediata no mercado. A Binance, maior concorrente, anunciou publicamente que venderia todo o seu estoque de FTT, o que desencadeou uma corrida em massa de saques.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-red-300 mb-3">A Dimensão do Rombo</h3>
+                    <p className="text-sm text-gray-300">
+                      Em poucos dias, a FTX não conseguiu honrar os saques dos clientes, expondo um rombo de aproximadamente <strong className="text-red-400">8 bilhões de dólares</strong>. A empresa declarou falência em 11 de novembro de 2022. Investigações posteriores revelaram que os fundos dos clientes haviam sido utilizados pela Alameda Research para cobrir perdas em operações de alto risco — tudo isso sem qualquer controle, auditoria ou separação contábil adequada.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-red-300 mb-3">A Raiz do Problema</h3>
+                    <p className="text-sm text-gray-300">
+                      O ponto central dessa falha catastrófica foi a <strong className="text-red-400">ausência de software adequado</strong>: não havia sistemas de gestão de risco, auditoria interna, segregação de fundos ou monitoramento em tempo real. A empresa operava com planilhas manuais e sem qualquer controle arquitetural sobre o fluxo dos ativos dos clientes.
+                    </p>
+                  </div>
                 </div>
-                <div className="rounded-lg overflow-hidden shadow-lg border border-red-500/30">
+                <div className="rounded-lg overflow-hidden shadow-lg border border-red-500/30 flex-shrink-0">
                   <img 
                     src="https://d2xsxph8kpxj0f.cloudfront.net/310519663139943114/EZGiv7xvFHJypLjbHG26sb/ftx-collapse-context-2prGkyUywNCf2YXWhnW43B.webp" 
                     alt="FTX Collapse Context" 
-                    className="w-full h-auto"
+                    className="block h-auto w-full md:w-80"
                   />
                 </div>
               </div>
               <div className="bg-slate-900/50 p-4 rounded-lg border border-green-500/20">
-                <h3 className="font-semibold text-green-300 mb-2">A Solução: SafeCrypto</h3>
+                <h3 className="font-semibold text-green-300 mb-2">Por que o SafeCrypto?</h3>
                 <p className="text-sm text-gray-300">
-                  O SafeCrypto é projetado especificamente para garantir a segurança total dos ativos dos usuários, além de transparência e confiabilidade nas transações financeiras, evitando as falhas arquiteturais que levaram à queda da FTX.
+                  O colapso da FTX deixou claro que o mercado de criptoativos carece de plataformas construídas com responsabilidade arquitetural. O SafeCrypto nasce diretamente dessa lacuna: uma plataforma projetada desde o início para garantir a segregação total dos fundos dos usuários, transparência em tempo real e auditabilidade completa de cada transação — tornando estruturalmente impossível o tipo de desvio que destruiu a FTX.
                 </p>
               </div>
             </CardContent>
